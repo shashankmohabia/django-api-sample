@@ -1,0 +1,1 @@
+web: gunicorn Ciba.wsgi --log-file -
