@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'co2xu3w&v#f=os#j0fm3g$zds&c-_o7@882=ioaaed(%pgb9c%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ciba-backend.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
